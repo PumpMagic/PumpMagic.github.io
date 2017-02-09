@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Ryan Conway"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Ryan Conway"
+description              : "Beep boop."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Ryan Conway"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "I'm a software engineer who focuses on the human element."
+  location         : "SF Bay Area"
   email            :
   uri              :
   bitbucket        :
