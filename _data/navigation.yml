@@ -2,9 +2,5 @@
 main:
   - title: "Projects"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "GitHub"
-    url: https://github.com/pumpmagic
-  - title: "LinkedIn"
-    url: https://www.linkedin.com/in/ryanmconway/
   # - title: "Sitemap"
   #   url: /sitemap/
