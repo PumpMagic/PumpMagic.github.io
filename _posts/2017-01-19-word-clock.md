@@ -3,12 +3,13 @@ layout: single
 title: "Building a Word Clock"
 date: 2017-01-19 21:59:00
 tags: [projects, word clock, embedded]
+header:
+  image: /assets/img/wordclock/IMG_0061_CROP.JPG
+excerpt: "A design and development retrospect of my custom-made **word clock**, which communicates the time with letters rather than numeral digits or hands. \n\n![Assembled word clock](/assets/img/wordclock/IMG_0061.JPG)"
 imgDir: /assets/img/wordclock
 ---
 
 A **word clock** communicates the time with letters rather than numeral digits or hands. They're unique and make for great gifts, especially when personalized.
-
-![A custom word clock.][img-assembled-1]
 
 I made this word clock as a Christmas gift for my dad in 2016. This post is a high-level retrospect of its development; detailed documents, including the schematic, parts list and firmware, are linked toward the end.
 
