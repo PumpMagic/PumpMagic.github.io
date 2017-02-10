@@ -4,9 +4,6 @@ title: "Building an Alien Animatronic"
 date: 2017-01-18 21:05:00
 tags: [projects, alien, animatronics, halloween, embedded]
 
-#header:
-#  image: /assets/img/alienanimatronic/IMG_0061_CROP.JPG
-
 excerpt: "A fun little project to build a greeter for our Halloween party. \n\n![Skreee!](/assets/img/alienanimatronic/inaction.gif)"
 
 imgDir: /assets/img/alienanimatronic

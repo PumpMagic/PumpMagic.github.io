@@ -1,6 +1,6 @@
 # main links
 main:
+  - title: "About"
+    url: /about/
   - title: "Projects"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: /tags/#projects
