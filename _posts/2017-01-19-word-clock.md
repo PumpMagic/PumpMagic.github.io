@@ -3,9 +3,12 @@ layout: single
 title: "Building a Word Clock"
 date: 2017-01-19 21:59:00
 tags: [projects, word clock, embedded]
+
 header:
   image: /assets/img/wordclock/IMG_0061_CROP.JPG
+
 excerpt: "A design and development retrospect of my custom-made **word clock**, which communicates the time with letters rather than numeral digits or hands. \n\n![Assembled word clock](/assets/img/wordclock/IMG_0061.JPG)"
+
 imgDir: /assets/img/wordclock
 ---
 
@@ -106,9 +109,9 @@ After initializing each pin used, the firmware constantly polls the inputs and a
 Firmware comes naturally to me now thanks to years of experience, so this project's was pretty straightforward. The most fun I had here was deciding how the clock should respond to the user pressing its buttons. Since the clock is only precise within five minutes, should the minute advance move the time forward by one minute or by five? How long should a user have to hold a button before that button's action is repeated, if ever, considering the target user? Should the clock reset its second counter when its time is advanced? I spent nearly as much time answering these questions as I did writing the rest of the code.
 
 
-# Assembly
+# Gallery
 
-Those are all of the pieces! Here are some shots of the assembly process and completed project.
+Here are some shots of the assembly process and completed project.
 
 ![LED array, back][img-led-array-back]
 
