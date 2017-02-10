@@ -23,7 +23,7 @@ I helped host a Halloween party at a friend's place in the woods of Santa Cruz l
 
 # Design
 
-My goal was to make a simple animatronic that could peek out the rear window of my car at our arriving visitors, as if to imply it was up to no good and wary of their presence. After falling in love with [this alien mask that kinda looks like a fish][link-mask-amazon] I knew I had to go with an alien theme. I had a futuristic looking cape from an old cosplay outfit that it could "wear", and figured I could pulse a green LED alongside the guy for some ambience.
+My goal was to make a simple animatronic that could peek out the rear window of my strategically parked car at our arriving visitors, as if to imply it was up to no good and wary of their presence. After falling in love with [this alien mask that kinda looks like a fish][link-mask-amazon] I knew I had to go with an alien theme. I had a futuristic looking cape from an old cosplay outfit that it could "wear", and figured I could pulse a green LED alongside the guy for some ambience.
 
 # Animating the Mask
 

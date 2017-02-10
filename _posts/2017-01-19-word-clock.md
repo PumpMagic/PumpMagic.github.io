@@ -79,16 +79,16 @@ I chose an ATMega328P for the clock's brain since I had a few lying around and A
 
 # RTC
 
-The MCU gets the time from a DS3231 RTC. I got one from Adafruit that's wrapped up in a convenient eight-pin breakout and sports a coin cell battery backup. This backup means the time isn't lost when the clock is unplugged, at least for 3 to 4 years - the RTC draws about 0.84uA in standby and the battery I picked supplies 38mAh.
+The MCU gets the time from a DS3231 RTC. I got one from Adafruit that's wrapped up in a convenient eight-pin breakout and sports a coin cell battery backup. This backup means the time isn't lost when the clock is unplugged, at least for 3 to 4 years - the RTC draws about 0.84μA in standby and the battery I picked supplies 38mAh.
 
-The DS3231's accuracy depends on its environment's temperature. In the weather conditions of its home of paradisiacal southern California, it's accurate in a +-2 PPM window. In other words, for every million seconds of actual time that pass, the clock's time will stray by at most two seconds in either direction. More practically, this means the clock will stray by no more than about a minute per year.
+The DS3231's accuracy depends on its environment's temperature. In the weather conditions of its home of paradisiacal southern California, it's accurate in a ±2 PPM window. In other words, for every million seconds of actual time that pass, the clock's time will stray by at most two seconds in either direction. More practically, this means the clock will stray by no more than about a minute per year.
 
 I considered another design that opted for an external crystal rather than an RTC. This would save on cost, but require custom time-calculating firmware, be less accurate, and be a challenge to battery back.
 
 
 # Power
 
-A 7.5V, 1A wall adapter feeds the clock. This is fed raw to the LED array, and regulated down to 5V for the control and driver boards. I chose 7.5V instead of 5V because I didn't want too much variance in each LED's brightness when accounting for resistance and diode forward voltage drop tolerances.
+A 7.5V 1A wall adapter feeds the clock. This is fed raw to the LED array, and regulated down to 5V for the control and driver boards. I chose 7.5V instead of 5V because I didn't want too much variance in each LED's brightness when accounting for resistance and diode forward voltage drop tolerances.
 
 I was careful to pull down the driver board's outputs so that while the MCU is booting up the driver board won't turn on all 98 LEDs simultaneously and overload the wall adapter. I picked out an adapter with a fuse just in case.
 
