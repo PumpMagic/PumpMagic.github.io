@@ -4,10 +4,10 @@ title: "Building a Word Clock"
 date: 2017-01-19 21:59:00
 tags: [projects, word clock, embedded]
 
-header:
-  image: /assets/img/wordclock/IMG_0061_CROP.JPG
-
 excerpt: "A design and development retrospect of my custom-made **word clock**, which communicates the time with letters rather than numeral digits or hands. \n\n![Assembled word clock](/assets/img/wordclock/IMG_0061.JPG)"
+
+header:
+  image: /assets/img/wordclock/splash.jpg
 
 imgDir: /assets/img/wordclock
 ---
