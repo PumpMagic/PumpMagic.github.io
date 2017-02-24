@@ -28,7 +28,7 @@ I enjoyed this project as a balance to the scientific mindset that we bring ours
 
 The word clock is a popular project among electronics hobbyists. It's taken [many different forms][link-wordclocks].
 
-To me, the appeal of the word clock is its simple elegance. It communicates the time in a manner that relieves you of the oft-gratuitous precision of traditional digital clocks. The word clock is colloquial and casually imprecise, but accurate.
+To me, the appeal of the word clock is its elegance. It communicates the time in a manner that relieves you of the oft-gratuitous precision of traditional digital clocks. The word clock is colloquial and casually imprecise, but accurate.
 
 [scottbez1's instructable][link-scottbez1-instructable] captures that philosophy well, so I based my design on his, making changes along the way.
 
