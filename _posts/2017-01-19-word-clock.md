@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Building a Word Clock"
+title: "Word Clock"
 date: 2017-01-19 21:59:00
 tags: [projects, word clock, embedded]
 

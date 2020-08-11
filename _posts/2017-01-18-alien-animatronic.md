@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Building an Alien Animatronic"
+title: "Alien Animatronic"
 date: 2017-01-18 21:05:00
 tags: [projects, alien, animatronics, halloween, embedded]
 
-excerpt: "A fun little project to build a greeter for our Halloween party. \n\n![Skreee!](/assets/img/alienanimatronic/inaction.gif)"
+excerpt: "A greeter for our Halloween party. \n\n![Skreee!](/assets/img/alienanimatronic/inaction.gif)"
 
 imgDir: /assets/img/alienanimatronic
 ---
