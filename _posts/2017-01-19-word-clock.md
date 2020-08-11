@@ -16,17 +16,13 @@ A **word clock** communicates the time with letters rather than numbers or hands
 
 I made this one as a Christmas gift for my dad in 2016. This post is a high-level retrospect of its development; the schematic, parts list, and firmware, are linked toward the end.
 
-I enjoyed this project as an opportunity to work on something creative with tangible parts.
+Before going too far, I want to point out that this turned out to be a beta build. I wound up with a rat's nest of wires, crammed components, and light bleeding through the baffles. It was a good proof of concept, but I took what I learned and made a second version with a custom PCB, and the results were way better. See [Addendum](#addendum).
 
 # Overview
 
 - Tech: ATMega328P + DS3231 + 98 5mm LEDs
 - Chassis: IKEA Ribba shadow box
 - Build date: November - December 2016
-
-Before going too far, I want to point out that this turned out to be a beta build. I wound up with a rat's nest of wires, disconnected crammed components, and light bleeding through the baffles. I wound up taking what I learned and made a second version with a custom PCB. The results were way better. See [Addendum](#addendum).
-
-I'd look at this post only as a proof-of-concept strategy.
 
 # Design
 
@@ -106,8 +102,6 @@ Firmware comes naturally to me now thanks to years of experience, so this projec
 
 # Gallery
 
-Here are some shots of the assembly process and completed project.
-
 ![LED array, back][img-led-array-back]
 
 ![Disassembled word clock][img-disassembled-1]
@@ -121,8 +115,6 @@ Here are some shots of the assembly process and completed project.
 ![Assembled word clock][img-assembled-4]
 
 # Documents
-
-Interested in creating your own word clock? Feel free to reach out.
 
 - [Parts list][link-parts-list]
 - [Schematic][link-schematic]
@@ -139,13 +131,13 @@ Interested in creating your own word clock? Feel free to reach out.
 
 # Addendum
 
-A few months after giving this as a gift, I received reports that a few more LEDs burned out. I took the opportunity to use what I learned to do better.
+A few months after giving this as a gift, I received reports that a few more LEDs burned out. Instead of swapping them out, I took the opportunity to use what I learned to do better.
 
-I dumped the circuit into Fritzing, routed it out to a monster 9"x9" board, and got it fabbed. Connecting the controls to the board was kinda jank, but soldering everything was way easier, and didn't require miles of wire. I also used Cree SMD LEDs instead of eBay ones. They've been going strong for four years, and some of them have been on pretty much that entire time.
+I dumped the circuit into Fritzing, routed it out to a monster 9"x9" board, and got it fabbed. Connecting the controls to the board was kinda jank, but soldering everything was way easier, and didn't require miles of wire. I also used Cree SMD LEDs instead of eBay ones. They've been going strong for four years. Even the ones that have been on pretty much that entire time.
 
-I probably still have the layout and Gerber files somewhere. No promises, but if you're reading this and think they'd help, feel free to ping me. I'll look for em.
+I probably still have the layout and Gerber files somewhere. No promises, but if you're reading this and think they'd help, feel free to ping me. I'll look for them.
 
-Thank you for reading!
+Thanks for reading!
 
 
 
