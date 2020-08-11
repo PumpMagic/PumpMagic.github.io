@@ -4,7 +4,7 @@ title: "Word Clock"
 date: 2017-01-19 21:59:00
 tags: [projects, word clock, embedded]
 
-excerpt: "A retrospect of my **word clock** build. \n\n![Assembled word clock](/assets/img/wordclock/IMG_0061.JPG)"
+excerpt: "For when digits and hands are just too much. \n\n![Assembled word clock](/assets/img/wordclock/IMG_0061.JPG)"
 
 header:
   image: /assets/img/wordclock/splash.jpg
