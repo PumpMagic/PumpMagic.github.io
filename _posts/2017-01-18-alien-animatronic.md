@@ -11,9 +11,9 @@ imgDir: /assets/img/alienanimatronic
 
 ![Skreee!][img-action-gif]
 
-If it's October and it's been a while since I've exercised my mechatronics skills... it's time to build an animatronic!
+It was October, and it had been a while since I did anything with motors. So I built a little animatronic!
 
-I helped host a Halloween party at a friend's place in the woods of Santa Cruz last year, and thought this guy might be able to greet our guests by peeking around the back of my car.
+I helped host a Halloween party at a friend's place in the woods of Santa Cruz, and this guy greeted our guests from the back of my parked car.
 
 # Overview
 
@@ -23,39 +23,39 @@ I helped host a Halloween party at a friend's place in the woods of Santa Cruz l
 
 # Design
 
-My goal was to make a simple animatronic that could peek out the rear window of my strategically parked car at our arriving visitors, as if to imply it was up to no good and wary of their presence. After falling in love with [this alien mask that kinda looks like a fish][link-mask-amazon] I knew I had to go with an alien theme. I had a futuristic looking cape from an old cosplay outfit that it could "wear", and figured I could pulse a green LED alongside the guy for some ambience.
+Since the party was at a house in the woods, the idea was to park my car askew and have an alien peek out the back, implying he was up to no good. The idea pretty much fell into place after I saw [this sweet alien mask that kinda looks like a fish][link-mask-amazon]. I had a futuristic looking cape from an old cosplay that he could wear, and figured I could pulse a green LED alongside him for some scifi vibes.
 
 # Animating the Mask
 
 ![Mask mounting assembly][img-mask-mount]
 
-Getting radial motion from a shaft is easy enough: power a DC gearmotor through an H-bridge and control its speed with PWM. I did that with a Jameco motor, off-the-shelf H-bridge board and an Arduino. Here's the hard part, for someone coming from a technical rather than mechanical background: how do you leverage that motion to rotate a 23" diameter mask?
+Getting radial motion from a shaft is easy enough: power a DC gearmotor through an H-bridge and control its speed with PWM. I got that with a Jameco motor, off-the-shelf H-bridge board and an Arduino. The hard part for me, coming from a nonmechanical background: how do you leverage that motion to rotate a 23" diameter mask?
 
-Here's my answer: a motor hub, long screws, wooden dowels, and lots of adhesive!
+My answer was lots of adhesive! And wooden dowels, long screws, and a motor hub.
 
-I took an off-the-shelf motor hub that fit my 12V gearmotor's shaft. The hub offers several threaded holes that one would normally use to attach a wheel. I couldn't just find 23" wheels - they'd weigh down the motor, even if I was willing to drop money on them. Instead, I took a few 2" screws, held them in the hub with nuts and thread locker (they free themselves easily under load), and crammed those screws into a styrofoam ball. I then drove a bunch of wooden dowels through that ball, in a way that approximated the shape of the mask, and held those in place using hot glue.
+The motor hub was a hobbyist unit that fit my 12V gearmotor's shaft, and had several threaded holes with which one would normally attach a wheel. But I couldn't just get 23" wheels. Even if I was willing to drop the money, they'd weigh down the motor. Instead, I took a few 2" screws, held them in the hub with nuts and thread locker, and crammed those screws into a styrofoam ball. I drove a bunch of wooden dowels through that ball, approximating the inner diameter of the mask, and held them in place with hot glue.
 
-If there's anything I learned in mechatronics class, it's that something being unconventional doesn't preclude it being highly effective.
+If there's anything I learned in mechatronics class, it's that simple, brute force solutions can be really effective.
 
-I programmed a basic state machine to make the mask rotate back and forth, occasionally doing a double-take and sometimes spinning in a complete circle, because why not?
+I programmed a basic state machine to make the mask rotate back and forth. I gave it a low probability of doing a double-take, and an even lower probability of spinning in a complete circle, because why not?
 
 # Pulsing the high-power LED
 
-The cool thing about H-bridges is that it's while they're generally marketed for use with motors, they're really just power drivers that you can use to drive current through anything. The board I bought for driving the motor offered two H-bridges, so I used the one left over to drive the LED. I stuck the LED to a stock Intel CPU cooler I had lying around with some thermal paste and hot glue (I unfortunately couldn't get a hold of thermal adhesive tape in time). I didn't end up having to drive the cooler's fan, the passive cooling was plenty.
+The cool thing about H-bridges is that it's while they're generally marketed for use with motors, they're really just power drivers that you can use to put current through anything. The board I bought for driving the motor had two of them, so I used the one left over to drive a high power LED. I stuck the LED to a stock Intel CPU cooler I had lying around with some thermal paste and hot glue. I wanted to use thermal adhesive tape, but couldn't get a hold of any in time. The passive cooling turned out to be plenty, and I didn't have to drive the cooler's fan.
 
-I programmed a basic state machine to pulse the LED on and off, usually slowly but sometimes quickly, and made it flicker sometimes as well.
+I made another state machine to pulse the LED on and off, usually slowly but sometimes quickly, and made it flicker randomly.
 
 # Mounting the Components
 
 ![Mask mounting assembly][img-components]
 
-To mount the mask assembly vertically, I attached the motor to an off-the-shelf motor mount bracket, then attached that to a slab of wood that mounted perpendicular to another slab using a couple right angle brackets. The latter slab housed the dual H-bridge and Arduino.
+To mount the mask assembly, I attached the motor to a hobbyist bracket, attached that bracket to a slab of wood, and attached that slab of wood to another slab of wood with a couple right angle brackets.
 
-I tucked the battery under the alien's cape and ran the LED behind the alien. I strapped the wooden platform to a box of dumbbells using a bungee cord. The little 12V motor generated a surprising amount of torque, and the platform would have found its way crashing down quickly were it not strapped down.
+That second slab held the H-bridges and the Arduino, and mostly importantly provided a surface to strap the whole thing down. I tied it all down to a box of dumbbells with a bungee cord. Without a heavy platform, the whole thing jerked a bunch and probably would've fallen over. The motor generated a surprising amount of torque.
 
 # Making the Alien Body
 
-I tossed the electronic platform on a bunch of books that I stuck in place with wooden wedges. I then draped an old cosplay cape over the books and propped up one of its long sleeves on a high point of the car cabin. I got away with a simple approach because visibility of the alien was deliberately poor - details here didn't matter.
+I put everything on top of a bunch of books that I held in place with wooden wedges. I draped the old cape over the books and propped up one of its long sleeves to the side of the cabin. I took advantage of it being hard to see at night and didn't focus too much on the details.
 
 # Gallery
 
@@ -65,19 +65,19 @@ Here it is in action:
 
 # Documents
 
-Interested in creating your own animatronic? Feel free to reach out to me.
-
 - [Parts list][link-parts-list]
 - [Firmware][link-firmware]
 
 # Lessons Learned
 
-- Don't be afraid to use adhesives like hot glue and thread locker, especially for one-off projects such as this. At first I tried making the mask mount using entirely removable fasteners like keps nuts and lock washers. Only after this failed several times did I resort to more permanent adhesives - and they worked first try.
-- Don't take part mounting for granted! Mounting everything took me the most time out of anything in this project.
+- Don't be afraid to use adhesives like hot glue and thread locker, especially for one-off projects such as this. At first I tried making the mask mount using entirely removable fasteners like keps nuts and lock washers. Only after this failed several times did I resort to more permanent adhesives.. and they worked first try.
+- Don't take mounting for granted! That took more time than anything else in this project.
 
 # Where to Go from Here
 
-It was rewarding building something that felt alive and brought people enjoyment. Or gave them the heebie jeebies... I'll take that too. I'd like to play around with animatronics some more, and have already gotten some 16 gauge aluminum to do so.
+It was rewarding building something that felt alive and brought people enjoyment. Or gave them the heebie jeebies. I'll take that too.
+
+I'd like to play around with animatronics some more, and have already gotten some 16 gauge aluminum to do so.
 
 
 **See you next Halloween!**
