@@ -9,13 +9,13 @@ excerpt: "And getting precise transaction names."
 imgDir: /assets/img/elasticapmscalatra
 ---
 
-Scalatra and Elastic APM are great. Since Elastic APM's Java agent [supports the servlet API](https://www.elastic.co/guide/en/apm/agent/java/current/supported-technologies-details.html#supported-app-servers), particularly Jetty, you can instrument a Scalatra app by just [slapping on the agent](https://www.elastic.co/guide/en/apm/agent/java/current/setup-javaagent.html).
+Elastic APM hooks into Scalatra pretty easily. Since APM's Java agent [supports the servlet API](https://www.elastic.co/guide/en/apm/agent/java/current/supported-technologies-details.html#supported-app-servers), particularly Jetty, you can instrument a Scalatra app by just [slapping on the agent](https://www.elastic.co/guide/en/apm/agent/java/current/setup-javaagent.html).
 
 But you may notice the resulting transaction names have only the request's method and servlet's name. For example, all `GET`s in `HealthServlet` will fall under the transaction name `HealthServlet#doGet`:
 
 ![HealthServlet transaction names][img-do-get]
 
-This is much better than nothing, but if you've got multiple routes in a single servlet, you may wish to disambiguate them.
+This is much better than no monitoring at all, but if you've got multiple routes in a single servlet, you may wish to disambiguate them.
 
 Fortunately, getting more precise transaction names isn't too hard. By extending `ScalatraServlet`, you can hook into your routes and set a unique transaction name for each. Observe:
 
