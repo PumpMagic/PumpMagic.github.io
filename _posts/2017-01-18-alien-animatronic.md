@@ -13,7 +13,7 @@ imgDir: /assets/img/alienanimatronic
 
 It was October, and it had been a while since I did anything with motors. So I built a little animatronic!
 
-I helped host a Halloween party at a friend's place in the woods of Santa Cruz, and this guy greeted our guests from the back of my parked car.
+I helped host a Halloween party at a friend's place, and this guy greeted our guests from the back of my parked car.
 
 # Overview
 
@@ -23,7 +23,7 @@ I helped host a Halloween party at a friend's place in the woods of Santa Cruz, 
 
 # Design
 
-Since the party was at a house in the woods, the idea was to park my car askew and have an alien peek out the back, implying he was up to no good. The idea pretty much fell into place after I saw [this sweet alien mask that kinda looks like a fish][link-mask-amazon]. I had a futuristic looking cape from an old cosplay that he could wear, and figured I could pulse a green LED alongside him for some scifi vibes.
+Since the party was at a house in the woods, the idea was to park my car askew and have an alien peek out the back, implying he was hiding out and up to no good. The idea pretty much fell into place after I saw [this sweet alien mask that kinda looks like a fish][link-mask-amazon]. I had a futuristic looking cape from an old cosplay that he could wear, and figured I could pulse a green LED behind him for some scifi vibes.
 
 # Animating the Mask
 
@@ -70,12 +70,12 @@ Here it is in action:
 
 # Lessons Learned
 
-- Don't be afraid to use adhesives like hot glue and thread locker, especially for one-off projects such as this. At first I tried making the mask mount using entirely removable fasteners like keps nuts and lock washers. Only after this failed several times did I resort to more permanent adhesives.. and they worked first try.
-- Don't take mounting for granted! That took more time than anything else in this project.
+- Don't be afraid to use adhesives like hot glue and thread locker. Especially for oneoff projects such as this. At first I tried mounting the mask using only removable fasteners like keps nuts and lock washers, hoping to make everything readily reusable. Only after that failed several times did I resort to more permanent adhesives.. and they worked first try.
+- Don't take mounting for granted! That took more time than anything else.
 
 # Where to Go from Here
 
-It was rewarding building something that felt alive and brought people enjoyment. Or gave them the heebie jeebies. I'll take that too.
+It was rewarding to build something that felt alive and that made people smile. Or gave them the heebie jeebies. I'll take that too.
 
 I'd like to play around with animatronics some more, and have already gotten some 16 gauge aluminum to do so.
 
