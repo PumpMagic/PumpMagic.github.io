@@ -2,7 +2,7 @@
 layout: single
 title: "Alien Animatronic"
 date: 2017-01-18 21:05:00
-tags: [projects, alien, animatronics, halloween, embedded]
+tags: [projects, animatronics, embedded]
 
 excerpt: "A greeter for our Halloween party. \n\n![Skreee!](/assets/img/alienanimatronic/inaction.gif)"
 

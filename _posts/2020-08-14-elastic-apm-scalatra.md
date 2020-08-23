@@ -2,7 +2,7 @@
 layout: single
 title: "Using Elastic APM with Scalatra"
 date: 2020-08-14 00:47:00
-tags: [scala, elasticsearch]
+tags: [performance, scala, elasticsearch]
 
 excerpt: "And getting precise transaction names."
 
@@ -86,9 +86,11 @@ trait ScalatraApmServlet extends ScalatraServlet {
 }
 ```
 
-By making your servlets extend `ScalatraApmServlet` instead of `ScalatraServlet`, their routes will be distinguished in APM.
+If you make your servlets extend `ScalatraApmServlet` instead of `ScalatraServlet`, their routes will be distinguished in APM.
 
-This works with Scalatra 2.7.0. I imagine it's prone to breaking with major Scalatra releases, but hope it won't be too hard to adapt when that happens.
+This works because when an `action` is evaluated, the APM agent will have already established a transaction for us. We're just overriding its name.
+
+I use this with Scalatra 2.7.0. I imagine it's prone to breaking with future Scalatra releases, but am hopeful it won't be too hard to adapt when that happens.
 
 
 [img-do-get]: {{ page.imgDir }}/doget.png

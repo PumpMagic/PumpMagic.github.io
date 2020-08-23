@@ -2,7 +2,7 @@
 layout: single
 title: "Word Clock"
 date: 2017-01-19 21:59:00
-tags: [projects, word clock, embedded]
+tags: [projects, embedded]
 
 excerpt: "For when digits and hands are just too much. \n\n![Assembled word clock](/assets/img/wordclock/IMG_0061.JPG)"
 
@@ -38,7 +38,7 @@ I thought [scottbez1's instructable][link-scottbez1-instructable] captured that 
 
 The letter mask is the clock's face. It sits in front of an array of LEDs, transforming each one's light into an individual letter.
 
-I made a letter mask in GIMP sized around the chassis' dimensions. I went with AppleGothic for a sleek look, and left some space around the edges for aesthetics and the non-LED electronics. I placed each letter of the mask in its own cell of a grid, effecetively monospacing the font.
+I made a letter mask in GIMP sized around the chassis' dimensions. I went with AppleGothic for a sleek look, and left some space around the edges for aesthetics and the non-LED electronics. I placed each letter of the mask in its own cell of a grid, effectively monospacing the font.
 
 I had several copies printed out on transparencies at Kinko's, cut three to fit, and carefully aligned and adhered them to each other using clamps and double-sided tape. The black ink isn't perfectly opaque; stacking the sheets prevents light from bleeding through where it shouldn't.
 
