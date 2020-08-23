@@ -4,7 +4,7 @@ title: "Alien Animatronic"
 date: 2017-01-18 21:05:00
 tags: [projects, animatronics, embedded]
 
-excerpt: "A greeter for our Halloween party. \n\n![Skreee!](/assets/img/alienanimatronic/inaction.gif)"
+excerpt: "A greeter for our Halloween party. \n\n![Skreee!](/assets/img/alienanimatronic/2017-01-20 20.54.14.jpg)"
 
 imgDir: /assets/img/alienanimatronic
 ---
