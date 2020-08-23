@@ -14,7 +14,7 @@ imgDir: /assets/img/wordclock
 
 A **word clock** communicates the time with letters rather than numbers or hands.
 
-I made this one as a Christmas gift for my dad in 2016. This post is a high-level retrospect of its development; the schematic, parts list, and firmware, are linked toward the end.
+I made this one as a Christmas gift for my dad in 2016. This post is a high-level retrospect of its development; the schematic, parts list, and firmware are linked toward the end.
 
 Before going too far, I want to point out that this turned out to be a beta build. I wound up with a rat's nest of wires, crammed components, and light bleeding through the baffles. It was a good proof of concept, but I took what I learned and made a second version with a custom PCB, and the results were way better. See [Addendum](#addendum).
 
@@ -133,7 +133,11 @@ Firmware comes naturally to me now thanks to years of experience, so this projec
 
 A few months after giving this as a gift, I received reports that a few more LEDs burned out. Instead of swapping them out, I took the opportunity to use what I learned to do better.
 
-I dumped the circuit into Fritzing, routed it out to a monster 9"x9" board, and got it fabbed. Connecting the controls to the board was kinda jank, but soldering everything was way easier, and didn't require miles of wire. I also used Cree SMD LEDs instead of eBay ones. They've been going strong for four years. Even the ones that have been on pretty much that entire time.
+I dumped the circuit into Fritzing, routed it out to a monster 9"x9" board, and got it fabbed. Connecting the controls to the board was kinda jank, but soldering everything was way easier, and didn't require miles of wire. I also used Cree LEDs instead of eBay ones. They've been going strong for four years. Even the `IT IS` letters, which have been on pretty much that entire time.
+
+![Before and after][img-before-after]
+
+![Assembled board][img-board]
 
 I probably still have the layout and Gerber files somewhere. No promises, but if you're reading this and think they'd help, feel free to ping me. I'll look for them.
 
@@ -160,3 +164,5 @@ Thanks for reading!
 [img-assembled-2]: {{ page.imgDir }}/2016-12-14 05.23.54.jpg
 [img-assembled-3]: {{ page.imgDir }}/IMG_0079.JPG
 [img-assembled-4]: {{ page.imgDir }}/IMG_0055.JPG
+[img-board]: {{ page.imgDir }}/2017-03-22 00.32.37.jpg
+[img-before-after]: {{ page.imgDir }}/2017-04-22 23.44.33.jpg
